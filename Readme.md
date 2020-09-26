@@ -11,3 +11,7 @@ A dice game built with javaFX
 [Redis](https://redis.io/download) 
 
 [MariaDB](https://mariadb.org/download/) 
+
+## Run
+
+Run `mvn clean javafx:run` to start the app
