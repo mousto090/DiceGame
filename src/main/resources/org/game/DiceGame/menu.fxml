@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.game.DiceGame.controllers.MenuController">
+   <top>
+      <ToolBar prefHeight="28.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="jeu" mnemonicParsing="false" text="Jeu" />
+            <Button fx:id="parametres" mnemonicParsing="false" text="Paramètres" />
+            <Button fx:id="regles" mnemonicParsing="false" text="Règles" />
+            <Button fx:id="exporter" mnemonicParsing="false" text="Exporter meilleurs scores" />
+            <Label text="MEILLEUR SCORE:" />
+            <Label fx:id="score" text="0" />
+            <Label text="de" />
+            <Label fx:id="pseudo" text="PERSONNE" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>
